@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: lab-service
+  boot:
+    admin:
+      url: http://localhost:8091
+      username: admin
+      password: adminadmin
+
+server:
+  port: 8082
+
+management:
+  security:
+    enabled: false
